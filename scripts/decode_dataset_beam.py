@@ -28,9 +28,9 @@ import note_seq
 import numpy as np
 import tensorflow as tf
 
-from .. import config
-from ../utils/ import song_utils
-from ../utils/ import data_utils
+import config
+from utils import song_utils
+from utils import data_utils
 
 FLAGS = flags.FLAGS
 
