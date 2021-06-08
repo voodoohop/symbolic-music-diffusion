@@ -25,8 +25,8 @@ from apache_beam.metrics import Metrics
 from magenta.models.music_vae import TrainedModel
 import note_seq
 
-import config
-from utils import song_utils
+from .. import config
+from ../utils/ import song_utils
 
 FLAGS = flags.FLAGS
 
